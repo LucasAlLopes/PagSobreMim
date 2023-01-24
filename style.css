@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400.700|PT++Mono);
+
+:root {
+    --primary-color: #21705c;
+    --secundary-color: #66bbbd;
+    --tertiary-color: #8fb9aa;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 22px;
+    font-family: Lato, sans-serif;
+}
+
+.principalTitulo {
+    background: var(--secundary-color);
+    border-radius: 8px;
+    font-size: 22px;
+    margin-bottom: 1px;
+}
+
+.definition {
+    background: var(--tertiary-color);
+    border-radius: 8px;
+}
+
+.resumo {
+    background: var(--tertiary-color);
+    border-radius: 8px;
+}
